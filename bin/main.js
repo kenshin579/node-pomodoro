@@ -29,7 +29,7 @@ var options = nomnom.options({
     , break: {
         abbr: 'b'
         , help: "Time a break and be notified when to start again. Pass in the" +
-            " amount of munites to break for."
+            " amount of minutes to break for."
     }
     , version: {
         flag: true

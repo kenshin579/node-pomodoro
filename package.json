@@ -24,6 +24,9 @@
     "pomodoro": "./bin/main.js",
     "p": "./bin/main.js"
   },
+  "scripts" : {
+    "start": "node ./bin/main.js"
+  },
   "main": "./bin/main.js",
   "preferGlobal": "true"
 }
