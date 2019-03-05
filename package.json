@@ -9,9 +9,7 @@
   ],
   "author": "David Burns",
   "dependencies": {
-    "chai": "^4.2.0",
     "colors": "1.0.3",
-    "mocha": "^6.0.2",
     "node-notifier": "^5.4.0",
     "nomnom": "1.8.1",
     "single-line-log": "0.4.1"
@@ -24,9 +22,14 @@
     "pomodoro": "./bin/main.js",
     "p": "./bin/main.js"
   },
-  "scripts" : {
+  "scripts": {
     "start": "node ./bin/main.js"
   },
   "main": "./bin/main.js",
-  "preferGlobal": "true"
+  "preferGlobal": "true",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "node-notifier": "^5.4.0",
+    "mocha": "^6.0.2"
+  }
 }
